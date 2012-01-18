@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:year/:month/:day/:title 
 auto: true
 pygments: true
 var:
@@ -9,14 +9,14 @@ var:
   tags_path : /tags.html
   rss_path: /atom.xml
 
-production_url : http://username.github.com # or your custom domain name
-title : Jekyll Boostrap
+production_url : http://status.freistil.it # or your custom domain name
+title : freistil IT status blog
 
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : freistil IT
+  email : info@freistil.it
+  github : freistil
+  twitter : freistil
   feedbuder : feedname
 
 exclude: .rbenv-version
