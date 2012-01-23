@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Overview
+title: Current status at freistil IT
 header: This is Jekyll-Bootstrap
 ---
 
