@@ -8,6 +8,7 @@ var:
   categories_path : /categories.html
   tags_path : /tags.html
   rss_path: /atom.xml
+  logo_path: /assets/themes/freistil_status/glider.png
 
 production_url : http://status.freistil.it # or your custom domain name
 title : freistil IT status blog
