@@ -1,7 +1,7 @@
 ---
 layout: status
 title: Datacenter power outage
-status: closed
+status: resolved
 category: DrupalCONCEPT
 ---
 <p><strong>ISSUE:</strong> This morning, we experienced a power outage at our datacenter provider Hetzner. While we are waiting for more detailed information, we already made sure that all our services restarted cleanly. All production servers are back up and running.</p>

@@ -1,7 +1,7 @@
 ---
 layout: status
 title: Sporadic Varnish error pages
-status: closed
+status: resolved
 category: DrupalCONCEPT
 ---
 <p><strong>ISSUE:</strong> In irregular intervals, Websites show an error page delivered by the Varnish proxy cache, mentioning "error 503" and "guru meditation".</p>

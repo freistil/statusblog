@@ -4,22 +4,23 @@ title: Current status at freistil IT
 header: This is Jekyll-Bootstrap
 ---
 
-## Open Incidents
+## Open incidents
 
 {% for post in site.posts %}
 {% if post.status == 'open' %}
 <article>
-{{ post.date | date_to_string }} &raquo; <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<span class="status_date">{{ post.date | date_to_string }}</span>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
 {{ post.content }}
 </article>
 {% endif %}
 {% endfor %}
 
-## Closed Incidents
+## Resolved incidents
 <ul class="status">
   {% for post in site.posts %}
-    {% if post.status == 'closed' %}
+    {% if post.status == 'resolved' %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}

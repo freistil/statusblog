@@ -2,7 +2,7 @@
 layout: status
 title: Security incident at Hetzner AG
 category: DrupalCONCEPT
-status: closed
+status: resolved
 ---
 <p>On Thursday, October 6th, Hetzner AG (in whose datacenters many of our servers are running) announced that "<span><a href="http://www.hetzner-status.de/en.html#126">Possible data abuse requires you change your access data.</a>"</span></p>
 <p><span>This potential abuse does only affect Hetzner administrative systems,&nbsp;especially the Hetzner Robot customer interface. </span></p>

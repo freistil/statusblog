@@ -1,7 +1,7 @@
 ---
 layout: status
 title: Database lock on pro07
-status: closed
+status: resolved
 category: DrupalCONCEPT
 ---
 <p><strong>ISSUE:</strong>&nbsp;Database queries on pro07a were executed slowly or not at all.</p>
