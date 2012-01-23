@@ -41,7 +41,33 @@ body {
   border: 0;
 }
 
+article .status {
+	margin-top: 15px;
+}
 
+article .status_date {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#005F6B;
+	border-radius: 3px;
+	text-decoration:none;
+}
+
+article .category_logo {
+	float: left;
+	margin-right: 10px;
+}
+
+#noproblems {
+	font-size: 3em;
+	margin: 20px;
+	padding: 20px;
+	background: #eee;
+	border-radius: 3px;
+	text-decoration:none;
+	
+}
 /* tag_box ======================================================== */
 
 .tag_box {

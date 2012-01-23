@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row status">
   <div class="span10">
     {{ content }}
     <hr>
@@ -22,6 +22,14 @@
   <div class="span4">
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+
+  {% unless page.category == empty %}
+    <h4>Category</h4>
+    <ul class="tag_box">
+		{% assign categories_list = page.category %}
+		{% include helpers/categories_list.html %}
+    </ul>
+  {% endunless %}  
 
   {% unless page.tags == empty %}
     <h4>Tags</h4>
