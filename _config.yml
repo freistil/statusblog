@@ -1,7 +1,8 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year/:month/:day/:title 
-auto: true
+auto: false
+server: false
 pygments: true
 var:
   archive_path: /archive.html
@@ -20,4 +21,4 @@ author :
   twitter : freistil
   feedbuder : feedname
 
-exclude: .rbenv-version
+exclude: .rbenv-version Rakefile README.md
