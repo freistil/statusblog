@@ -1,5 +1,9 @@
-require "rubygems"
+require 'rubygems'
 require 'rake'
+
+editor  = ENV["EDITOR"] || ""
+
+task :default => :build
 
 desc "Switch between Jekyll-bootstrap themes."
 task :switch_theme, :theme do |t, args|
@@ -27,7 +31,62 @@ task :switch_theme, :theme do |t, args|
   end
 end # task :switch_theme
 
-desc "Launch preview environment"
-task :preview do
-  system "jekyll --auto --server"
+desc 'Clean up generated site'
+task :clean do
+  sh 'rm -rf _site'
+end
+
+desc 'Test site output for Liquid template errors'
+task :test => :build do
+  errors = `grep --exclude Rakefile -R 'Liquid error:' _site`
+  if errors.nil? || errors.empty?
+    puts "No errors"
+  else
+    puts "Errors:"
+    puts errors.inspect
+    exit 1
+  end
+end
+
+desc 'Build site with Jekyll'
+task :build => :clean do
+  system "jekyll #('--lsi')"
+end
+
+desc 'Start server with --auto'
+task :server => :clean do
+  system "jekyll --server --auto"
+end
+
+desc 'Make a new status post'
+task :status, [:name] do |t, args|
+  if args.name then
+    template(args.name, "status")
+  else
+    puts "Name required"
+  end
+end
+
+def template(name, type)
+  t = Time.now
+  contents = "" # otherwise using it below will be badly scoped
+  File.open("_posts/yyyy-mm-dd-template-#{type}.md", "rb") do |f|
+    contents = f.read
+  end
+  contents = contents.sub("%date%", t.strftime("%Y-%m-%d %H:%M:%S %z")).sub("%title%", name)
+  filename = "_posts/" + t.strftime("%Y-%m-%d-") + name + '.md'
+  if File.exists? filename then
+    puts "Post already exists: #{filename}"
+    return
+  end
+  File.open(filename, "wb") do |f|
+    f.write contents
+  end
+  puts "created #{filename}"
+end
+
+desc "list tasks"
+task :list do
+  puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
+  puts "(type rake -T for more detail)\n\n"
 end
