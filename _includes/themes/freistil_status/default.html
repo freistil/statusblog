@@ -31,15 +31,15 @@
 
     <div class="topbar">
       <div class="fill">
+        <img src="{{ site.var.logo_path }}" id="logo" />
         <div class="container">
-          <img src="{{ site.var.logo_path }}" id="logo" />
           <a class="brand" href="/">{{ site.title }}</a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include helpers/pages_list.html %}
             <li><a href="http://www.freistil.it">freistil.it</a></li>
-
+            <li><a href="https://twitter.com/intent/user?screen_name=freistilops" target="_blank">Follow @freistilops</a></li>
           </ul>
         </div>
       </div>
@@ -50,14 +50,14 @@
       <div class="content">
         <div class="page-header">
           <h1>{{ page.title }}</h1>
-		  <span><a id="feed" href="/atom.xml" title="Atom Feed"><img src="{{ theme_asset_path }}/rss.png" /></a></span>
-		  
+          <a class="rssfeed" href="/atom.xml" title="Atom Feed"><img src="{{ theme_asset_path }}/rss.png" /></a>
+
         </div>
         {{ content }}
       </div>
 
       <footer>
-        <p><a href="http://www.freistil.it">freistil IT</a> - <a href="/credits.html">Credits</p>
+        <p><a href="http://www.freistil.it">freistil IT</a> - <a href="/credits.html">Credits</a></p>
       </footer>
 
     </div> <!-- /container -->
