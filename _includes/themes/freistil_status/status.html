@@ -1,4 +1,4 @@
-<div class="row status">
+<article class="row status">
   <div class="span10">
     {{ content }}
     <hr>
@@ -18,10 +18,15 @@
       </ul>
     </div>
   </div>
-  
+
   <div class="span4">
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+
+  {% unless page.severity == empty %}
+    <h4>Severity</h4>
+    <div class="severity {{ page.severity }}">{{ page.severity | upcase }}</div>
+  {% endunless %}
 
   {% unless page.category == empty %}
     <h4>Category</h4>
@@ -29,7 +34,7 @@
 		{% assign categories_list = page.category %}
 		{% include helpers/categories_list.html %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
   {% unless page.tags == empty %}
     <h4>Tags</h4>
@@ -37,6 +42,6 @@
     {% assign tags_list = page.tags %}
     {% include helpers/tags_list.html %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
   </div>
-</div>
+</article>

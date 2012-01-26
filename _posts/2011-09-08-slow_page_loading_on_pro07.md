@@ -3,6 +3,7 @@ layout: status
 title: Slow page loading on pro07
 status: resolved
 category: DrupalCONCEPT
+severity: high
 ---
 <p><strong>ISSUE:</strong> Loading pages from websites hosted on our &nbsp;DrupalCONCEPT PRO/shared cluster <strong>pro07</strong> take long time to get delivered.</p>
 <p><strong>CAUSE:</strong> We're experiencing very high load on the server and are analyzing the cause.</p>
