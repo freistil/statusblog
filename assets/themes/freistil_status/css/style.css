@@ -26,8 +26,9 @@ body {
 }
 
 .topbar #logo {
-	float: right;
+	float: left;
 	margin-top: 5px;
+  margin-left: 20px;
 }
 
 /* Page header tweaks */
@@ -37,10 +38,17 @@ body {
   margin: -20px -20px 20px;
 }
 
-#feed {
-	float: right;
-	display: inline;
-	margin-top: -55px;
+.page-header h1 {
+  display: inline;
+}
+
+.page-header .rssfeed {
+  float: right;
+  margin-top: -18px;
+}
+
+.page-header .twitter-follow-button .btn-o {
+  float: right;
 }
 
 .topbar .btn {
@@ -72,7 +80,7 @@ article .category_logo {
 	background: #eee;
 	border-radius: 3px;
 	text-decoration:none;
-	
+
 }
 /* tag_box ======================================================== */
 
@@ -105,4 +113,4 @@ article .category_logo {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+
