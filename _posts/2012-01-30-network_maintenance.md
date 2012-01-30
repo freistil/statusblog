@@ -8,6 +8,6 @@ category: DrupalCONCEPT
 severity: low
 status: open
 ---
-On 31.01. from 05.00 to 07.00 CET and 01.02. from 05.00 to 07.00 CET there will be maintenance work on the network in one of the datacenters our servers are housed at.
+On 2012-01-31 from 05:00 to 07:00 CET and on 2012-02-01 from 05:00 to 07:00 CET, there will be network maintenance work in one of our datacenters.
 
-Only a few servers could be affected and no failures are expected.
+The affected network segment houses only a small number of our servers and we do not expect any outage.
