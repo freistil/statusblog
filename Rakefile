@@ -58,18 +58,18 @@ task :server => :clean do
   system "jekyll --server --auto"
 end
 
-desc 'Make a new status post'
-task :status, [:name] do |t, args|
+desc 'Create a new status post'
+task :post, [:name] do |t, args|
   if args.name then
     template(args.name, "status")
   else
-    puts "Name required"
+    puts "Post name required"
   end
 end
 
 def template(name, type)
   t = Time.now
-  contents = "" # otherwise using it below will be badly scoped
+  contents = ""
   File.open("_posts/yyyy-mm-dd-template-#{type}.md", "rb") do |f|
     contents = f.read
   end
@@ -87,17 +87,18 @@ def template(name, type)
   puts "added #{filename} to git repository"
 end
 
-desc 'Ping pubsubhubbub server.'
+desc 'Ping PuSH server.'
 task :ping do
   require 'cgi'
   require 'net/http'
-  puts 'Pinging pubsubhubbub server'
+  puts 'Pinging PuSH server'
   data = 'hub.mode=publish&hub.url=' + CGI::escape("http://status.freistil.it/atom.xml")
   http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
-  resp, data = http.post('http://pubsubhubbub.appspot.com/publish',
-                         data,
-                         {'Content-Type' => 'application/x-www-form-urlencoded'})
-
+  resp, data = http.post(
+    'http://pubsubhubbub.appspot.com/publish',
+    data,
+    { 'Content-Type' => 'application/x-www-form-urlencoded' }
+  )
   puts "Ping error: #{resp}, #{data}" unless resp.code == "204"
 end
 
