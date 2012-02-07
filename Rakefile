@@ -59,7 +59,7 @@ task :server => :clean do
 end
 
 desc 'Create a new status post'
-task :post, [:name] do |t, args|
+task :create, [:name] do |t, args|
   if args.name then
     template(args.name, "status")
   else
@@ -83,8 +83,12 @@ def template(name, type)
     f.write contents
   end
   puts "created #{filename}"
-  system "git add #{filename}"
-  puts "added #{filename} to git repository"
+end
+
+desc 'Start server with --auto'
+task :publish do
+  system "git add . && git commit"
+  system "git push origin"
 end
 
 desc 'Ping PuSH server.'
