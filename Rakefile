@@ -85,17 +85,16 @@ def template(name, type)
   puts "created #{filename}"
 end
 
-desc 'Start server with --auto'
+desc 'Publish contents.'
 task :publish do
-  system "git add . && git commit"
-  system "git push origin"
-end
-
-desc 'Ping PuSH server.'
-task :ping do
   require 'cgi'
   require 'net/http'
-  puts 'Pinging PuSH server'
+
+  puts 'Update repository...'
+  system "git add . && git commit"
+  system "git push origin"
+
+  puts 'Ping PuSH server...'
   data = 'hub.mode=publish&hub.url=' + CGI::escape("http://status.freistil.it/atom.xml")
   http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
   resp, data = http.post(
@@ -104,6 +103,7 @@ task :ping do
     { 'Content-Type' => 'application/x-www-form-urlencoded' }
   )
   puts "Ping error: #{resp}, #{data}" unless resp.code == "204"
+
 end
 
 desc "list tasks"
