@@ -6,12 +6,14 @@ published: true
 tags: network
 category: DrupalCONCEPT
 severity: medium
-status: open
+status: closed
 ---
 
 **ISSUE:** We're experiencing short-term connection problems in the Hetzner datacenters.
 
-**CAUSE:** Undetermined.
+**CAUSE:** Probably small network issues.
+
+** RESOLVED:** Problems have ceased.
 
 **TIMELINE:**
 
