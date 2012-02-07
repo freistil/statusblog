@@ -9,6 +9,12 @@ severity: medium
 status: open
 ---
 
-[09:32] We're experiencing short-term connection problems in the Hetzner datacenters. We suppose they're caused by network issues. 
+**ISSUE:** We're experiencing short-term connection problems in the Hetzner datacenters.
 
-*We're looking into this and will update this article as soon as we have new information.* 
+**CAUSE:** Undetermined.
+
+**TIMELINE:**
+
+[09:32] We assume the connection problems are caused by network issues. 
+
+*We will update this article as soon as we have new information.* 
