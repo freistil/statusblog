@@ -15,6 +15,6 @@ status: open
 
 **TIMELINE:**
 
-[09:32] We assume the connection problems are caused by network issues. 
+(09:32) We assume the connection problems are caused by network issues. 
 
 *We will update this article as soon as we have new information.* 
