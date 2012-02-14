@@ -6,7 +6,7 @@ published: true
 tags:
 category: DrupalCONCEPT
 severity: high
-status: open
+status: closed
 ---
 
 **ISSUE:** We are experiencing network problems in the Hetzner datacenters. Some of our servers are currently unreachable.
