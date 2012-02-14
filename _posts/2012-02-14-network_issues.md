@@ -6,7 +6,7 @@ published: true
 tags:
 category: DrupalCONCEPT
 severity: high
-status: open
+status: closed
 ---
 
 **ISSUE:** We are experiencing network issues with one of our datacenters. Some
@@ -14,4 +14,4 @@ Server are unreachable.
 
 **CAUSE:** Undetermined.
 
-**TIMELINE:**
+**RESOLVED:** (13:27) All servers are reachable again.
