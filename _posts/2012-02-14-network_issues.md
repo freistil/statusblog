@@ -14,5 +14,6 @@ Server are unreachable.
 
 **CAUSE:** Network issues with the core switches at our datacenters. See [Hetzner Statuswebsites](http://www.hetzner-status.de/en.html#351) for further information.
 
-(13:27) All servers are reachable again.
+(13:27) All servers are reachable again.  
 (15:45) Multiple servers are unreachable again.
+
