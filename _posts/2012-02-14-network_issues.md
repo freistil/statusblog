@@ -9,11 +9,12 @@ severity: high
 status: open
 ---
 
-**ISSUE:** We are experiencing network issues with one of our datacenters. Some
-Server are unreachable.
+**ISSUE:** We are experiencing network problems in the Hetzner datacenters. Some of our servers are currently unreachable.
 
-**CAUSE:** Network issues with the core switches at our datacenters. See [Hetzner Statuswebsite](http://www.hetzner-status.de/en.html#351) for further information.
+**CAUSE:** Issues with the datacenter's core switches. See the [Hetzner Status](http://www.hetzner-status.de/en.html#351) website for further information.
 
-(13:27) All servers are reachable again.  
+**TIMELINE:**
+
 (15:45) Multiple servers are unreachable again.
-
+(13:27) All servers are reachable again.
+(13:02) Our monitoring alerts many servers as unreachable.
