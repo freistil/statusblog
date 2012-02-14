@@ -6,7 +6,7 @@ published: true
 tags:
 category: DrupalCONCEPT
 severity: high
-status: closed
+status: resolved
 ---
 
 **ISSUE:** We are experiencing network issues with one of our datacenters. Some
