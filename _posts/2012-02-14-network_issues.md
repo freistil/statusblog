@@ -15,6 +15,7 @@ status: open
 
 **TIMELINE:**
 
+* (16:35) All servers are again reachable.
 * (15:45) Multiple servers are unreachable again.
 * (13:27) All servers are reachable again.
 * (13:02) Our monitoring alerts many servers as unreachable.
