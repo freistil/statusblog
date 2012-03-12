@@ -13,6 +13,4 @@ status: resolved
 
 **CAUSE:** We suspect that a software upgrade broke a PEAR library needed by Drush.
 
-**TIMELINE:**
-
-18:20 Different customer support requests suggest a general problem with Drush.
+**RESOLUTION:** We improved our installation process to make PEAR installations more robust.
