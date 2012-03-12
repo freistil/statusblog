@@ -2,7 +2,7 @@
 layout: status
 title: "Planned maintenance window on Friday, 2012-03-02, 00:00 CET"
 date: 2012-02-28 20:31:53 +0100
-published: truehttps://freistil.zendesk.com/entries/20223797-erste-schritte-mit-drupalconcept
+published: true
 tags: maintenance
 category: DrupalCONCEPT
 severity: medium
