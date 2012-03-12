@@ -6,7 +6,7 @@ published: true
 tags: drush
 category: DrupalCONCEPT
 severity: low
-status: open
+status: resolved
 ---
 
 **ISSUE:** Drush fails with an error message on servers with SSH access.
