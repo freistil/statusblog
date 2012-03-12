@@ -6,8 +6,12 @@ published: truehttps://freistil.zendesk.com/entries/20223797-erste-schritte-mit-
 tags: maintenance
 category: DrupalCONCEPT
 severity: medium
-status: open
+status: resolved
 ---
 
 On Friday, 2012-03-02, 00:00 to 01:00 CET, we are going to upgrade Apache and PHP components to apply security fixes.  
 We don't expect downtimes longer than a minute.
+
+**TIMELINE:**
+
+02:15 All updates were applied without problems. Downtimes were below one minuten on all hosts.
