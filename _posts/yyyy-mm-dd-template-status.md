@@ -2,7 +2,7 @@
 layout: status
 title: "%title%"
 date: %date%
-published: false
+published: true
 tags:
 category: DrupalCONCEPT
 severity: high
