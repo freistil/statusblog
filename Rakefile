@@ -73,7 +73,7 @@ def template(name, type)
   File.open("_posts/yyyy-mm-dd-template-#{type}.md", "rb") do |f|
     contents = f.read
   end
-  contents = contents.sub("%date%", t.strftime("%Y-%m-%d %H:%M:%S %z")).sub("%title%", name)
+  contents = contents.sub("%date%", t.strftime("%Y-%m-%d %H:%M:%S %z"))
   filename = "_posts/" + t.strftime("%Y-%m-%d-") + name + '.md'
   if File.exists? filename then
     puts "Post already exists: #{filename}"
