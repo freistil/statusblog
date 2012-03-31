@@ -21,3 +21,4 @@ After switching to the standby machine, the websites are reachable again.
 
 * 00:15 Opened incident report
 * 00:30 Switched to Standby server and started analysis
+* 00:45 Informed datacenter about networking problems
