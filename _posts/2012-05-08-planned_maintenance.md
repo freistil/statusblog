@@ -3,7 +3,7 @@ layout: status
 title: "Planned Maintenance window on Tuesday, 2012-05-15, 23:00 CET"
 date: 2012-05-08 19:10:05 +0200
 published: true
-tags: maintenance, php, mysql
+tags: [maintenance, php, mysql, apache]
 category: DrupalCONCEPT
 severity: medium
 status: open
