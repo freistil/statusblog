@@ -9,12 +9,18 @@ severity: high
 status: open
 ---
 
-**ISSUE:** 
+## ISSUE:
 
-We have been notified of an incident that affects operation of server XXX. We are analyzing the issue and will add more details here as soon as possible.
+We are experiencing a problem that impacts the operation of server/cluster XXX. 
 
-**CAUSE:** Undetermined.
 
-**TIMELINE:**
+## CAUSE:
 
-* 00:00 Opened incident report
+Not yet determined.
+
+
+## TIMELINE:
+
+* [00:00 CET] Incident opened. 
+
+*We are analyzing the issue and will add more details here as soon as possible.*

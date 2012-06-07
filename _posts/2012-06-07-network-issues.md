@@ -6,15 +6,23 @@ published: true
 tags: 
 category: DrupalCONCEPT
 severity: high
-status: open
+status: resolved
 ---
 
-**ISSUE:** 
+ISSUE:
+------
 
-We're experiencing network latency problems that impact multiple DrupalCONCEPT clusters. We are analyzing the issue and will add more details here as soon as possible.
+We're experiencing network latency problems that impact multiple DrupalCONCEPT clusters.
 
-**CAUSE:** Undetermined.
 
-**TIMELINE:**
+CAUSE:
+------
 
-* 19:45 Opened incident report
+We assume the problems were caused by a short network overload.
+
+
+TIMELINE:
+---------
+
+* 19:45 Incident opened.
+* 20:07 The network issues have ceased. Incident closed.
