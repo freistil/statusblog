@@ -6,10 +6,12 @@ published: true
 tags: [maintenance, php, mysql, apache]
 category: DrupalCONCEPT
 severity: medium
-status: open
+status: resolved
 ---
 
-On Tuesday, 2012-05-15, 23:00 to 05:00 CET, we are going to upgrade Apache, PHP and MySQL components to apply security fixes on all PRO-S, PRO, POWER and managed servers.  
-We don't expect downtimes longer than a minute.  
+ISSUE:
+------
 
+*Maintenance announcement:*
 
+On Tuesday, 2012-05-15, 23:00 to 05:00 CET, we are going to upgrade Apache, PHP and MySQL components to apply security fixes on all PRO-S, PRO, POWER and managed servers. We don't expect downtimes longer than a minute.
