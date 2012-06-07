@@ -3,7 +3,7 @@ layout: status
 title: "Maintenance window to do PHP upgrade and deployment improvements"
 date: 2012-03-17 14:00:24 +0100
 published: true
-tags: php, deployment
+tags: [php, deployment]
 category: DrupalCONCEPT
 severity: medium
 status: resolved
