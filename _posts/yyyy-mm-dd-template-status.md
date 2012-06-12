@@ -9,20 +9,17 @@ severity: high
 status: open
 ---
 
-ISSUE:
-------
+## ISSUE:
 
 We are experiencing a problem that impacts the operation of server/cluster XXX. 
 
 
-CAUSE:
-------
+## CAUSE:
 
 Not yet determined.
 
 
-TIMELINE:
----------
+## TIMELINE:
 
 * [00:00 CET] Incident opened. 
 
