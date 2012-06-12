@@ -6,7 +6,7 @@ published: true
 tags: [maintenance, mysql]
 category: DrupalCONCEPT
 severity: high
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -19,4 +19,4 @@ On Tuesday, 2012-06-12, 23:00 to 05:00 CET, we are going to upgrade MySQL compon
 #### TIMELINE:
 
 * [11:46 CET] Maintenance announced. 
-
+* [00:50 CET] Maintenance finished. No downtime longer than one minute.
