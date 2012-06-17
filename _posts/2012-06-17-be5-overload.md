@@ -6,7 +6,7 @@ published: true
 tags: database,be5
 category: DrupalCONCEPT
 severity: high
-status: open
+status: resolved
 ---
 
 ISSUE:
