@@ -12,7 +12,7 @@ status: open
 ISSUE:
 ------
 
-We are experiencing a problem with the database be5 that impacts the operation of clusters "elite5" and "elite6". 
+We are experiencing a problem with the database cluster "be5" that impacts the operation of Drupal clusters "elite5" and "elite6". 
 
 
 CAUSE:
