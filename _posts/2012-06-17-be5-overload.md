@@ -25,5 +25,4 @@ TIMELINE:
 ---------
 
 * [11:41 CET] Incident opened. 
-
-*We are analyzing the issue and will add more details here as soon as possible.*
+* [14:30 CET] The problem has subsided. We're in contact with the respective customer with the goal of using Memcache. Incident closed.
