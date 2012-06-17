@@ -18,7 +18,7 @@ We are experiencing a problem with the database cluster "be5" that impacts the o
 CAUSE:
 ------
 
-Not yet determined.
+The DB cluster experiences bursts of write requests to the Drupal cache tables of one database.
 
 
 TIMELINE:
