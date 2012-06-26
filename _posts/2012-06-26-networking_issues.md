@@ -21,5 +21,6 @@ Networking problems in datacenter.
 
 * [11:05 CET] Incident opened. 
 * [11:20 CET] All servers are reachable again.
+* [11:38 CET] The problems are showing up again.
 
 *We are analyzing the issue and will add more details here as soon as possible.*
