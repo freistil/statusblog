@@ -20,6 +20,6 @@ Networking problems in datacenter.
 
 #### TIMELINE:
 
-* [00:00 CET] Incident opened. 
+* [11:15 CET] Incident opened. 
 
 *We are analyzing the issue and will add more details here as soon as possible.*
