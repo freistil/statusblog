@@ -20,6 +20,7 @@ Networking problems in datacenter.
 
 #### TIMELINE:
 
-* [11:15 CET] Incident opened. 
+* [11:05 CET] Incident opened. 
+* [11:20 CET] All servers are reachable again.
 
 *We are analyzing the issue and will add more details here as soon as possible.*
