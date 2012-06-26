@@ -3,7 +3,7 @@ layout: status
 title: Network issues
 date: 2012-06-07 19:43:59 +0200
 published: true
-tags: 
+tags: [network]
 category: DrupalCONCEPT
 severity: high
 status: resolved
