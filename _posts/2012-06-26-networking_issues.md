@@ -3,7 +3,7 @@ layout: status
 title: Networking problems
 date: 2012-06-26 11:15:44 +0200
 published: true
-tags: [network, routing]
+tags: [network]
 category: DrupalCONCEPT
 severity: high
 status: open
