@@ -3,7 +3,7 @@ layout: status
 title: Database overload
 date: 2012-06-17 11:40:22 +0200
 published: true
-tags: database,be5
+tags: [database,be5]
 category: DrupalCONCEPT
 severity: high
 status: resolved
