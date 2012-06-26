@@ -11,8 +11,7 @@ status: open
 
 #### ISSUE:
 
-We are experiencing a problem that impacts the operation of cluster PRO32, PRO33, PRO35 and managed server M16.
-
+We are experiencing a problem that impacts the operation of several DrupalCONCEPT clusters.
 
 #### CAUSE:
 
