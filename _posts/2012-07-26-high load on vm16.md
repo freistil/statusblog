@@ -3,7 +3,7 @@ layout: status
 title: High load on vm16
 date: 2012-07-26 00:29:46 +0200
 published: true
-tags: [vm16,power12,power13,power15,power16,m17]
+tags: [vm16, power12, power13, power15, power16, m17]
 category: DrupalCONCEPT
 severity: medium
 status: open
