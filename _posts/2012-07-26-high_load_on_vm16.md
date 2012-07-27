@@ -6,7 +6,7 @@ published: true
 tags: [vm16, power12, power13, power15, power16, m17]
 category: DrupalCONCEPT
 severity: medium
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -21,12 +21,10 @@ We are experiencing a problem that impacts the operation on VM host vm16. This i
 
 #### CAUSE:
 
-Not yet determined.
-
+Multiple simultaneous full backups starting on several of the affected servers caused the high load.
+To avoid this we distribute the backups from now on.
 
 #### TIMELINE:
 
 * [00:30 CET] Incident opened.
 * [00:35 CET] The servers are up and running again.
-
-*We are analyzing the issue and will add more details here as soon as possible.*
