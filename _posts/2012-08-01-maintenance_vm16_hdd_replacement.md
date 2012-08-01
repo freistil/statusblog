@@ -25,3 +25,4 @@ This affects the following servers:
 
 * [16:05 CET] Maintenance window announced.
 * [23:00 CET] System shutdown to replace disk.
+* [2012-08-02, 00:30 CET] The system and its VMs are running with decreased performance due to the RAID rebuild.
