@@ -24,3 +24,4 @@ This affects the following servers:
 #### TIMELINE:
 
 * [16:05 CET] Maintenance window announced.
+* [23:00 CET] System shutdown to replace disk.
