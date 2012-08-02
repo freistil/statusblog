@@ -6,7 +6,7 @@ published: true
 tags: [maintenance, disk, vm16, power12, power13, power15, power16, m17]
 category: DrupalCONCEPT
 severity: medium
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -26,3 +26,4 @@ This affects the following servers:
 * [16:05 CET] Maintenance window announced.
 * [23:00 CET] System shutdown to replace disk.
 * [2012-08-02, 00:30 CET] The system and its VMs are running with decreased performance due to the RAID rebuild.
+* [14:47 CET] The RAID rebuild finished without problems. Systems are back at normal operation.
