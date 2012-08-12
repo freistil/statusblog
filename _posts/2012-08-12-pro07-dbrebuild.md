@@ -24,5 +24,6 @@ Database crash.
 #### TIMELINE:
 
 * [21:20 UTC] Incident opened. 
+* [21:43 UTC] The database export has finished successfully.
 
 *We are working on the issue and will add more details here as soon as possible.*
