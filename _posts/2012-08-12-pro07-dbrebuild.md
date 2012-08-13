@@ -6,7 +6,7 @@ published: true
 tags: database,mysql
 category: DrupalCONCEPT
 severity: low
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -26,5 +26,4 @@ Database crash.
 * [2012-08-12 21:20 UTC] Incident opened. 
 * [2012-08-12 21:43 UTC] The database export has finished successfully.
 * [2012-08-13 15:26 UTC] The standby database has been rebuilt and is now catching up with its production node.
-
-*We are working on the issue and will add more details here as soon as possible.*
+* [2012-08-13 16:30 UTC] The standby database now is synchronous to the production instance again. Incident closed.
