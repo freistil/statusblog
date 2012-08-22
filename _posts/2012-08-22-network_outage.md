@@ -21,6 +21,6 @@ Network outage at a datacenter
 
 #### TIMELINE:
 
-* [00:00 CET] Incident opened. 
+* [15:07 CET] Incident opened. 
 
 *We are analyzing the issue and will add more details here as soon as possible.*
