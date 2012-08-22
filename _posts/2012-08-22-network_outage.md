@@ -6,7 +6,7 @@ published: true
 tags: network
 category: DrupalCONCEPT
 severity: high
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -16,11 +16,10 @@ We are experiencing a problem that impacts the operation of server/cluster PRO19
 
 #### CAUSE:
 
-Network outage at a datacenter
+Network outage at a datacenter.
 
 
 #### TIMELINE:
 
 * [15:07 CET] Incident opened. 
-
-*We are analyzing the issue and will add more details here as soon as possible.*
+* [15:17 CET] The datacenter is reachable again, all sites are back.
