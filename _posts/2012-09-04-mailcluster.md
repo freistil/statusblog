@@ -22,5 +22,6 @@ Software upgrade is necessary for performance and security reasons.
 #### TIMELINE:
 
 * [09:34 UTC] Incident opened. 
+* [20:09 UTC] The software upgrade was finished successfully. Now the cluster filesystem will upgrade its metadata over night. We don't expect this to impact the operation of our email services.
 
 *We will add more details here as soon as possible.*
