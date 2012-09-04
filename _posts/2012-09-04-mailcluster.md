@@ -1,0 +1,26 @@
+---
+layout: status
+title: Maintenance downtime mail cluster
+date: 2012-09-04 09:34 UTC
+published: true
+tags: mail
+category: DrupalCONCEPT
+severity: medium
+status: open
+---
+
+#### ISSUE:
+
+For an update of the cluster filesystem software, we need to take our mailcluster mail.topcluster.net offline for about 1h. The maintenance will take place today, 2012-09-04, from 19:00 UTC to about 20:00 UTC.
+
+
+#### CAUSE:
+
+Software upgrade is necessary for performance and security reasons.
+
+
+#### TIMELINE:
+
+* [09:34 UTC] Incident opened. 
+
+*We will add more details here as soon as possible.*
