@@ -6,7 +6,7 @@ published: true
 tags: mail
 category: DrupalCONCEPT
 severity: medium
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -23,5 +23,4 @@ Software upgrade is necessary for performance and security reasons.
 
 * [09:34 UTC] Incident opened. 
 * [20:09 UTC] The software upgrade was finished successfully. Now the cluster filesystem will upgrade its metadata over night. We don't expect this to impact the operation of our email services.
-
-*We will add more details here as soon as possible.*
+* [2012-09-05 07:40 UTC] The upgrade has finished successfully. Incident closed.
