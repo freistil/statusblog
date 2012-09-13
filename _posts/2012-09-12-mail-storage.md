@@ -1,6 +1,6 @@
 ---
 layout: status
-title: 
+title: Mail storage migration
 date: 2012-09-12 09:40 UTC
 published: true
 tags: email,
@@ -23,6 +23,7 @@ Data migration.
 
 #### TIMELINE:
 
-* [2012-09-12 09:40 CET] Incident opened. 
+* [2012-09-12 09:40 UTC] Incident opened. 
+* [2012-09-13 23:46 UTC] Because the synchronization process takes longer than anticipated, we need to extend the downtime. ETA: 01:00 UTC.
 
 *We will add more details here as soon as possible.*
