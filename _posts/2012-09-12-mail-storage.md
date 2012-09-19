@@ -3,7 +3,7 @@ layout: status
 title: Mail storage migration
 date: 2012-09-12 09:40 UTC
 published: true
-tags: email,
+tags: email
 category: Hosting
 severity: medium
 status: open
