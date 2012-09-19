@@ -6,7 +6,7 @@ published: true
 tags: [mysql, pro32]
 category: DrupalCONCEPT
 severity: medium
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -18,4 +18,4 @@ Database replication between the two nodes of &nbsp;DrupalCONCEPT PRO Cluster PR
 
 * [11:09 CET] Incident opened. 
 * [00:00 CET] Rebuild start.
-* 
+* [00:39 CET] Rebuild successfully completed. The necessary database lock took less than a minute, so operations were impaired for only this time.
