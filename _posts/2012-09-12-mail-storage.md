@@ -6,7 +6,7 @@ published: true
 tags: email
 category: Hosting
 severity: medium
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -29,5 +29,3 @@ Data migration.
 * [2012-09-13 23:46 UTC] Because the synchronization process takes longer than anticipated, we need to extend the downtime. ETA: 01:00 UTC.
 * [2012-09-14 01:54 UTC] The synchronization process has finished successfully and mail services are activated again. 
 * [2012-09-14 01:58 UTC] Some reconnecting IMAP clients report that already expunged emails had reappeared. A quick analysis shows that emails that were removed on the old storage during synchronization were not removed on the new storage.
-
-*We will add more details here as soon as possible.*
