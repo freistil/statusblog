@@ -17,3 +17,5 @@ Database replication between the two nodes of &nbsp;DrupalCONCEPT PRO Cluster PR
 #### TIMELINE:
 
 * [11:09 CET] Incident opened. 
+* [00:00 CET] Rebuild start.
+* 
