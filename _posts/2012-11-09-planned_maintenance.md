@@ -21,4 +21,4 @@ For POWER and managed servers there will be downtimes of about 5 to 15 minutes s
 
 #### TIMELINE:
 
-* [2012-11-09 14:12 UTC] Maintenance announced. 
+* [2012-11-09 14:12 CET] Maintenance announced. 
