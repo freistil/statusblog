@@ -23,4 +23,4 @@ For POWER and managed servers there will be downtimes of about 5 to 15 minutes s
 
 * [2012-11-09 14:12 CET] Maintenance announced. 
 * [2012-11-15 23:05 CET] Upgrades started.
-* [2012-11-17 02:00 CET] Upgrades finished. Incident closed.
+* [2012-11-17 02:35 CET] Upgrades finished. Maintenance window closed.
