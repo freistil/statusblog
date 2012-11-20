@@ -23,4 +23,3 @@ Due to an inconsistency in the server setup, our automatic system management shu
 * [12:04 CET] Incident opened. 
 * [12:30 CET] Problem resolved and incident closed.
 
-*We are analyzing the issue and will add more details here as soon as possible.*
