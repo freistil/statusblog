@@ -6,7 +6,7 @@ published: true
 tags: [c52, mysql]
 category: DrupalCONCEPT
 severity: high
-status: open
+status: resolved
 ---
 
 #### ISSUE:
@@ -16,11 +16,11 @@ We are experiencing a problem that impacts the operation of the database on clus
 
 #### CAUSE:
 
-Not yet determined.
-
+Due to an inconsistency in the server setup, our automatic system management shut down the database service. We solved the problem and restarted the service manually.
 
 #### TIMELINE:
 
 * [12:04 CET] Incident opened. 
+* [12:30 CET] Problem resolved and incident closed.
 
 *We are analyzing the issue and will add more details here as soon as possible.*
