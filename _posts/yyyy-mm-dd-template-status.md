@@ -1,12 +1,12 @@
 ---
-layout: status
+status: open
 title: 
+severity: high
+tags: 
+category: Hosting
 date: %date%
 published: true
-tags: 
-category: DrupalCONCEPT
-severity: high
-status: open
+layout: status
 ---
 
 #### ISSUE:
@@ -21,6 +21,6 @@ Not yet determined.
 
 #### TIMELINE:
 
-* [00:00 CET] Incident opened. 
+* [%date%] Incident opened. 
 
 *We are analyzing the issue and will add more details here as soon as possible.*
