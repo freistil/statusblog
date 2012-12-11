@@ -1,6 +1,6 @@
 ---
 status: open
-title: Announcement: Changes in webserver log handling
+title: Announcement of changes in webserver log handling
 severity: low
 tags: logfiles
 category: Hosting
