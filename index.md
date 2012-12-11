@@ -5,7 +5,7 @@ header: This is Jekyll-Bootstrap
 ---
 
 <div class="alert alert-info">
-To get maintenance announcements and other important information directly to your mailbox, please [subscribe to our Operations Newsletter](https://tinyletter.com/freistilops)!
+To get maintenance announcements and other important information directly to your mailbox, please <a href="https://tinyletter.com/freistilops">subscribe to our Operations Newsletter</a>!
 </div>
 
 ## Open incidents
