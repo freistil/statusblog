@@ -4,7 +4,8 @@ title: Current status at freistil IT
 header: This is Jekyll-Bootstrap
 ---
 
-<span class="label label-important">Important</span> To get maintenance announcements and other important information directly to your mailbox, please [subscribe to our Operations Newsletter](https://tinyletter.com/freistilops)!
+<span class="label label-important">Important</span> 
+To get maintenance announcements and other important information directly to your mailbox, please [subscribe to our Operations Newsletter](https://tinyletter.com/freistilops)!
 
 ## Open incidents
 
