@@ -1,7 +1,7 @@
 ---
 layout: status
 title: "Network issues"
-date: 2012-12-21 5:30:10 +0100
+date: 2012-12-21 6:30 UTC
 published: true
 tags: [network]
 category: DrupalCONCEPT
