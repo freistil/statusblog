@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 title: Announcement of changes in webserver log handling
 severity: low
 tags: logfiles
@@ -26,5 +26,3 @@ Your freistil IT ops team.
 #### TIMELINE:
 
 * [2012-11-30 14:52 CET] Announcement published. 
-
-*We will add more details here as soon as possible.*
