@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 title: Emergency support over the holidays
 severity: low
 tags: [support, announcement]
