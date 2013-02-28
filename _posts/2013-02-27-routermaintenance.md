@@ -32,5 +32,8 @@ Maintenance work.
 #### TIMELINE:
 
 * [2013-02-27 21:46 UTC] Incident/Announcement opened. 
+* [2013-02-28 04:03 UTC] Our main monitoring system at Hetzner shows most systems unreachable, which was to be expected. External monitoring shows actual impact on multiple websites, though.
+* [2013-02-28 04:15 UTC] Most websites are online again. Only Hetzner datacenter #12 is still down.
+* [2013-02-28 04:33 UTC] All websites are back up again.
 
 *We will add more details here as soon as possible.*
