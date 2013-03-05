@@ -35,5 +35,7 @@ Maintenance work.
 * [2013-02-28 04:03 UTC] Our main monitoring system at Hetzner shows most systems unreachable, which was to be expected. External monitoring shows actual impact on multiple websites, though.
 * [2013-02-28 04:15 UTC] Most websites are online again. Only Hetzner datacenter #12 is still down.
 * [2013-02-28 04:33 UTC] All websites are back up again.
+* [2013-03-05 04:03 UTC] Our main monitoring shows multiple hosts unreachable. Again, multiple websites are affected.
+* [2013-03-05 04:15 UTC] All websites are back up again.
 
 *We will add more details here as soon as possible.*
