@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 title: Software upgrades
 severity: low
 tags: upgrade
@@ -26,5 +26,4 @@ Security updates to several services.
 #### TIMELINE:
 
 * [2013-02-28 19:54 UTC] Announcement published. 
-
-*We will add more details here as soon as possible.*
+* [2013-03-06 02:40 UTC] Upgrades finished successfully.
