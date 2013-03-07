@@ -40,5 +40,6 @@ Maintenance work.
 * [2013-03-07 04:05 UTC] Multiple hosts are unreachable. Multiple websites are affected.
 * [2013-03-07 04:15 UTC] All servers are back up again. All websites are fully working again.
 * [2013-03-07 04:25 UTC] Servers in Hetzner datacenter #15 are down. Multiple Websites are affected.
+* [2013-03-07 04:40 UTC] Servers in Hetzner datacenter #15 are all back again. All websites are fully working.
 
 *We will add more details here as soon as possible.*
