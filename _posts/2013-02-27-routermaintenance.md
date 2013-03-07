@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 title: Router maintenance
 severity: medium
 tags: network
