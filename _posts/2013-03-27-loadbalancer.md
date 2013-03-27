@@ -23,5 +23,7 @@ Not yet determined.
 
 * [2013-03-27 00:29 UTC] Incident opened. 
 * [2013-03-27 00:35 UTC] Routing of all failover subnets to our main loadbalancer is down. We've opened a support ticket with the datacenter.
+* [2013-03-27 00:57 UTC] Call to Hetzner Support. We're asked to wait for a response via email.
+* [2013-03-27 01:30 UTC] Call to Hetzner Support. We explain the severity of the outage and demand escalation of the problem. We're promised expedited handling of the issue and quick feedback on any progress.
 
 *We are working on this issue and will add more details here as soon as possible.*
