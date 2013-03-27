@@ -2,7 +2,7 @@
 status: resolved
 title: Loadbalancer outage
 severity: high
-tags: network,loadbalancer
+tags: [network, loadbalancer]
 category: Hosting
 date: 2013-03-27 00:29 UTC
 published: true
