@@ -23,3 +23,4 @@ Security updates to several services.
 #### TIMELINE:
 
 * [2013-05-07 14:15 UTC] Announcement published. 
+* [2013-05-10 23:01 UTC] Starting upgrades.
