@@ -15,9 +15,9 @@ Over recent weeks, we had multiple customers sending support requests because of
 
 To prevent these problems for the future, we've decided to do an emergency data migration (~300 GB of email) to another storage solution. 
 
-To avoid any risk to data consistence, we need to shut down our email cluster during the migration, which will take place
+To avoid any risk to data consistency, we need to shut down our email cluster during the migration, which will take place
 
-  **from Friday, 2013-05-10 20:00, to Saturday, 2013-05-11 07:00**
+  **from Friday, 2013-05-10 18:00 UTC (20:00 CEST), to Saturday, 2013-05-11 05:00 UTC (07:00 CEST)**
 
 During this time, access to mailboxes will not be possible. Incoming email will be delivered as soon as the mail cluster goes back online.
 
