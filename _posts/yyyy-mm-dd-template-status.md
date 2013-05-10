@@ -21,6 +21,6 @@ Not yet determined.
 
 #### TIMELINE:
 
-* [%date%] Incident opened. 
+* %date% -- Incident opened. 
 
 *We are working on this issue and will add more details here as soon as possible.*

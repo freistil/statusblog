@@ -31,6 +31,6 @@ Email storage issues.
 
 #### TIMELINE:
 
-* 2013-05-10 10:03 UTC Incident opened. 
+* 2013-05-10 10:03 UTC -- Incident opened. 
 
 *We are working on this issue and will add more details here as soon as possible.*
