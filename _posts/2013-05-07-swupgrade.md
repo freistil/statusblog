@@ -1,6 +1,6 @@
 ---
 status: open
-title: Software ugprade
+title: Software upgrade
 severity: low
 tags: upgrade
 category: Hosting
