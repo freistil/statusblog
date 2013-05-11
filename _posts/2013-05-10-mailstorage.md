@@ -19,6 +19,8 @@ To avoid any risk to data consistency, we need to shut down our email cluster du
 
   **from Friday, 2013-05-10 18:00 UTC (20:00 CEST), to Saturday, 2013-05-11 05:00 UTC (07:00 CEST)**
 
+**Update:** Because the data transfer is taking longer than estimated, we need to expand maintenance time until 07:00 UTC (09:00 CEST).
+
 During this time, access to mailboxes will not be possible. Incoming email will be delivered as soon as the mail cluster goes back online.
 
 We apologize for the short notice. Because email is a very important communications tool for our customers, we decided to act fast.
@@ -32,5 +34,6 @@ Email storage issues.
 #### TIMELINE:
 
 * 2013-05-10 10:03 UTC -- Incident opened. 
+* 2013-05-11 04:16 UTC -- Data transfer is taking longer than anticipated. New ETA: 07:00 UTC.
 
 *We are working on this issue and will add more details here as soon as possible.*
