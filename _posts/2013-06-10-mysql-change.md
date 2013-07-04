@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 title: Database change on 2013-06-14
 severity: medium
 tags: database
@@ -23,6 +23,5 @@ Software upgrade and configuration change.
 
 #### TIMELINE:
 
-* 2013-06-10 13:53 UTC -- Announcement created. 
-
-*We are working on this issue and will add more details here as soon as possible.*
+* 2013-06-10 13:53 UTC -- Announcement created.
+* 2013-06-15 02:14 UTC -- Maintenance finished.
