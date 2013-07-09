@@ -22,7 +22,6 @@ These are the DrupalCONCEPT clusters affected by this change:
 * elite5 (all sites)
 * elite6 (some sites)
 * pro20
-* pro34
 * pro35
 
 We will inform all customers affected by this change directly and post updates on our status blog.
