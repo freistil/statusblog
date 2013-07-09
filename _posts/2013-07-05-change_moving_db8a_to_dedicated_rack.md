@@ -34,5 +34,6 @@ Infrastructure change to improve resilience against network issues.
 #### TIMELINE:
 
 * 2013-07-05 15:30 UTC – Announcement created.
+* 2013-07-09 09:45 UTC – The IP address of db8.drupalconcept.net will change. If you are using 178.63.45.89 directly now this **will not work** after the move anymore. You will have to change it afterwards. If you are using the hostname directly you will not be affected.
 
 *We are working on this issue and will add more details here as soon as possible.*
