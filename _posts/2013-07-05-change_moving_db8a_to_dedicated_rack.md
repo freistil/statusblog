@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 title: "Change announcement: Moving db8a to dedicated rack"
 severity: medium
 tags: [database, change announcement]
