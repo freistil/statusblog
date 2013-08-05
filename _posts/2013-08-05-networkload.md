@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 title: Performance loss caused by high network load
 severity: high
 tags: network
@@ -23,5 +23,4 @@ Hetzner found the network issues are caused by a DoS attack: http://www.hetzner-
 
 * 2013-08-05 12:21 UTC -- Incident opened.
 * 2013-08-05 13:10 UTC -- Hetzner initiates black hole routing for UDP traffic to the affected subnet to reduce network load.
-
-*We are working on this issue and will add more details here as soon as possible.*
+* 2013-08-05 14:58 UTC -- Issue closed.
