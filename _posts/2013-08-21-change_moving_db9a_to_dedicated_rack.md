@@ -5,7 +5,7 @@ severity: medium
 tags: [database, change announcement]
 category: Hosting
 date: 2013-08-21 08:00 UTC
-published: false
+published: true
 layout: status
 ---
 
