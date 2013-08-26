@@ -26,3 +26,4 @@ Infrastructure change to improve resilience against network issues.
 #### TIMELINE:
 
 * 2013-08-21 08:30 UTC – Announcement created.
+* 2013-08-26 18:40 UTC – Initiated failover to db9b and set up db9a for new environment.
