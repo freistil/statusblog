@@ -27,3 +27,5 @@ Infrastructure change to improve resilience against network issues.
 
 * 2013-08-21 08:30 UTC – Announcement created.
 * 2013-08-26 18:40 UTC – Initiated failover to db9b and set up db9a for new environment.
+* 2013-08-26 19:00 UTC – Move started on time.
+* 2013-08-26 19:25 UTC – db9a is back up at its new location in our rack. db9b will stay the active node for a while. Replication is fully working again.
