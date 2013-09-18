@@ -14,9 +14,9 @@ layout: status
 We are experiencing a problem that impacts the operation of our servers.
 
 
-#### CAUSE:
+#### ANALYSIS AND SOLUTION:
 
-Not yet determined.
+Cause not yet determined.
 
 
 #### TIMELINE:
