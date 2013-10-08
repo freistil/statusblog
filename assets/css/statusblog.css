@@ -45,6 +45,11 @@ body {
 .updates {
   margin: 40px 0;
 }
+
+.updates h3 {
+  margin-top: 40px;
+}
+
 .updates p + h4 {
   margin-top: 28px;
 }

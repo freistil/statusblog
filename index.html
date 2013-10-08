@@ -21,25 +21,18 @@
   <body>
     <div class="container">
       <div class="header">
-<!--        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="http://status.freistil.it">Status</a></li>
+          <li><a href="http://docs.freistilbox.com">Documentation</a></li>
+          <li><a href="http://support.freistil.it">Support</a></li>
+          <li><a href="http://www.freistilbox.com/contact/">Contact</a></li>
         </ul>
--->
         <h3 class="text-muted">freistil IT - status overview</h3>
       </div>
 
-<!--
-      <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Sign up today</a></p>
-      </div>
--->
       <div class="row updates">
         <div class="col-lg-8">
-          <h3>Active Incidents and announcements</h3>
+          <h2>Active Incidents and announcements</h2>
 
           <div id="statusBlog"></div>
 
@@ -76,7 +69,7 @@
           if ($.inArray("resolved", topic.tags)) {
             activeCount++;
             $("#statusBlog")
-              .append('<h4><a href="' + topicURL +'">' + topic.title + '</a></h4>')
+              .append('<h3><a href="' + topicURL +'">' + topic.title + '</a></h3>')
               .append(topic.body)
               .append('<p class="text-right"><small>Created: ' + topic.created_at
                 + ', Updated: ' + topic.updated_at +'<br/>'
@@ -86,15 +79,15 @@
         if(activeCount == 0) {
           $("#statusBlog")
             .append('<div class="jumbotron">'
-              + "<h4>No active incidents.</h4>"
+              + "<h3>No active incidents.</h3>"
               + '<p>If you are experiencing problems please <a href="https://freistil.zendesk.com/anonymous_requests/new">tell us!</a></p>'
               );
         }
       });
     </script>
-    <script src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+    <script src="https:////assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
     <style type="text/css" media="screen, projection">
-      @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+      @import url(https://assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
     </style>
     <script type="text/javascript">
       if (typeof(Zenbox) !== "undefined") {

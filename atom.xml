@@ -4,24 +4,21 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  <link rel="hub" href="http://pubsubhubbub.appspot.com/" />
- <title>{{ site.title }}</title>
- <link href="{{ site.production_url }}/atom.xml" rel="self"/>
- <link href="{{ site.production_url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.production_url }}/</id>
+ <title>freistil IT - status overview</title>
+ <link href="http://status.freistil.it/atom.xml" rel="self"/>
+ <link href="http://status.freistil.it/"/>
+ <updated>2013-10-08T17:45:22+02:00</updated>
+ <id>http://status.freistil.it/</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name>freistil IT</name>
+   <email>info@freistil.it</email>
  </author>
 
- {% for post in site.posts %}
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.production_url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.production_url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>RSS feed moved</title>
+   <link href="http://freistil.zendesk.com"/>
+   <updated>2013-10-08T17:45:22+02:00</updated>
+   <id>http://status.freistil.it/2013-10-08-rss-feed-moved</id>
+   <content type="html">This feed is no longer used. We update our status and incident announcements in our <a href="https://freistil.zendesk.com/forums/22680143">forum for this</a>. There is an <a href="https://freistil.zendesk.com/forums/22680143/posts.rss">new RSS feed</a> as well. Please update your feed readers. Thanks!</content>
  </entry>
- {% endfor %}
- 
 </feed>
