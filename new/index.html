@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>freistil IT - status overview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http:////netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/statusblog.css">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+<!--        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+-->
+        <h3 class="text-muted">freistil IT - status overview</h3>
+      </div>
+
+<!--
+      <div class="jumbotron">
+        <h1>Jumbotron heading</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#">Sign up today</a></p>
+      </div>
+-->
+      <div class="row updates">
+        <div class="col-lg-8">
+          <h3>Active Incidents and announcements</h3>
+
+          <div id="statusBlog"></div>
+
+        </div>
+
+        <div class="col-lg-4">
+          <h3>Realtime updates</h3>
+          <a class="twitter-timeline" href="https://twitter.com/freistilops" data-widget-id="387553197587300352">Tweets von @freistilops</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; <a href="http://www.freistil.it">freistil IT</a> 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script>
+    var statusblogTopics = "https://freistil.zendesk.com/api/v2/forums/22680143/topics.json";
+    $.getJSON( statusblogTopics, {
+    })
+      .done(function( data ) {
+        var activeCount = 0;
+        $.each(data.topics, function( i, topic) {
+          var topicURL = "https://freistil.zendesk.com/entries/"+ topic.id;
+
+          if ($.inArray("resolved", topic.tags)) {
+            activeCount++;
+            $("#statusBlog")
+              .append('<h4><a href="' + topicURL +'">' + topic.title + '</a></h4>')
+              .append(topic.body)
+              .append('<p class="text-right"><small>Created: ' + topic.created_at
+                + ', Updated: ' + topic.updated_at +'<br/>'
+                + '<a href="' + topicURL + '#comments">Comment this</a></small></p>');
+          }
+        })
+        if(activeCount == 0) {
+          $("#statusBlog")
+            .append('<div class="jumbotron">'
+              + "<h4>No active incidents.</h4>"
+              + '<p>If you are experiencing problems please <a href="https://freistil.zendesk.com/anonymous_requests/new">tell us!</a></p>'
+              );
+        }
+      });
+    </script>
+    <script src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+      @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+    </style>
+    <script type="text/javascript">
+      if (typeof(Zenbox) !== "undefined") {
+        Zenbox.init({
+          dropboxID:   "20245406",
+          url:         "https://freistil.zendesk.com",
+          tabTooltip:  "Support",
+          tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_support.png",
+          tabColor:    "black",
+          tabPosition: "Left"
+      });
+    </script>
+  </body>
+</html>
